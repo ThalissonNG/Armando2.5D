@@ -5,13 +5,15 @@ using UnityEngine.AI;
 
 public class AiEnemys : MonoBehaviour
 {
+    #region Variables
     [SerializeField] private NavMeshAgent _NavMeshAgent;
     [SerializeField] private Transform Player;
     [SerializeField] private Transform CurrentPoint;
     [SerializeField] private Transform Point1;
     [SerializeField] private Transform Point2;
 
-    [SerializeField] private bool IsFollow;
+    [SerializeField] public bool IsFollow;
+    #endregion
 
     void Start()
     {
@@ -21,30 +23,17 @@ public class AiEnemys : MonoBehaviour
     }
     void Update()
     {
-        Debug.Log("Current Point: " + CurrentPoint.name);
         FollowPlayer();
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Point1"))
         {
-            IsFollow = true;
-        }
-        else if (other.CompareTag("Point1"))
-        {
-            Debug.Log("colidiu");
             CurrentPoint = Point2;
         }
-        else if (other.CompareTag("point2"))
+        else if (other.CompareTag("Point2"))
         {
             CurrentPoint = Point1;
-        }
-    }
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            IsFollow = false;
         }
     }
     private void FollowPlayer()

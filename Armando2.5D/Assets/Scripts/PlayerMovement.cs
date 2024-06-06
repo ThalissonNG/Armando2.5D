@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float MoveSpeed = 5f;
+    #region Status
+    [Header("Status")]
+    [SerializeField] private float MoveSpeed = 5f;
     public float JumpForce = 5f;
+    #endregion
+
     public Transform GroundCheck;
     public float GroundCheckRadius = 0.2f;
     public LayerMask GroundLayer;
