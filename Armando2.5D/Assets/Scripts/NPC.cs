@@ -10,9 +10,6 @@ public class NPC : MonoBehaviour
     [SerializeField] private TextMeshProUGUI TextMeshPro;
     [SerializeField] private string FalaPersonagem;
 
-    private void Start()
-    {
-    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -25,6 +22,7 @@ public class NPC : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             ColliderPlayer = false;
+            ClearText();
         }
     }
 
@@ -32,11 +30,15 @@ public class NPC : MonoBehaviour
     {
         if (ColliderPlayer && Input.GetButtonDown("Fire1"))
         {
-            TextMeshPro.text = FalaPersonagem;
+            DisplayText();
         }
-        if (ColliderPlayer == false)
-        {
-            TextMeshPro.text = null;
-        }
+    }
+    private void DisplayText()
+    {
+        TextMeshPro.text = FalaPersonagem;
+    }
+    private void ClearText()
+    {
+        TextMeshPro.text = string.Empty;
     }
 }
