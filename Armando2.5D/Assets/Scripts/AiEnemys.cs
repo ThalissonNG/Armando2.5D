@@ -13,11 +13,15 @@ public class AiEnemys : MonoBehaviour
     [SerializeField] private Transform Point2;
 
     [SerializeField] public bool IsFollow;
+    private float StartTimer = 10;
+    [SerializeField] private float CurrentTimer;
 
+    [SerializeField] private PlayerControl _PlayerControl;
     #endregion
 
     void Start()
     {
+        CurrentTimer = StartTimer;
         CurrentPoint = Point2;
         _NavMeshAgent = GetComponent<NavMeshAgent>();
         Player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -25,6 +29,7 @@ public class AiEnemys : MonoBehaviour
     void Update()
     {
         FollowPlayer();
+        UpdateTimer();
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -35,6 +40,21 @@ public class AiEnemys : MonoBehaviour
         else if (other.CompareTag("Point2"))
         {
             CurrentPoint = Point1;
+        }
+    }
+    private void UpdateTimer()
+    {
+        if (IsFollow)
+        {
+            CurrentTimer -= Time.deltaTime;
+            if (CurrentTimer <= 0)
+            {
+                _PlayerControl.Life = 0;
+            }
+        }
+        else
+        {
+            CurrentTimer = StartTimer;
         }
     }
     private void FollowPlayer()

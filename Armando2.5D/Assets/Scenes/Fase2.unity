@@ -210,6 +210,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1904159466}
     - target: {fileID: 3479988618447976756, guid: 8b39412748bfbdb48a7188fae028f683, type: 3}
+      propertyPath: IsFollow
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479988618447976756, guid: 8b39412748bfbdb48a7188fae028f683, type: 3}
+      propertyPath: StartTimer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479988618447976756, guid: 8b39412748bfbdb48a7188fae028f683, type: 3}
       propertyPath: _PlayerControl
       value: 
       objectReference: {fileID: 1764212494}
