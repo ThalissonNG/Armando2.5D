@@ -13,6 +13,7 @@ public class AiEnemys : MonoBehaviour
     [SerializeField] private Transform Point2;
 
     [SerializeField] public bool IsFollow;
+
     #endregion
 
     void Start()
@@ -41,10 +42,14 @@ public class AiEnemys : MonoBehaviour
         if (IsFollow)
         {
             _NavMeshAgent.SetDestination(Player.position);
+            _NavMeshAgent.stoppingDistance = 2;
+            _NavMeshAgent.acceleration = 10;
         }
         else
         {
             _NavMeshAgent.SetDestination(CurrentPoint.position);
+            _NavMeshAgent.stoppingDistance = 0;
+            _NavMeshAgent.acceleration = 8;
         }
     }
 }

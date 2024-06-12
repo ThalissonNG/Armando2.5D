@@ -1,21 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerControl : MonoBehaviour
 {
     #region Status
     [Header("Status")]
     [SerializeField] private float MoveSpeed = 5f;
-    public float JumpForce = 5f;
+    [SerializeField] private float JumpForce = 5f;
+    [SerializeField] public int Life = 10;
+    [Space(20)]
     #endregion
 
-    public Transform GroundCheck;
-    public float GroundCheckRadius = 0.2f;
-    public LayerMask GroundLayer;
-
+    #region Variables Worlds
+    [SerializeField] private Transform GroundCheck;
+    [SerializeField] private float GroundCheckRadius = 0.2f;
+    [SerializeField] private LayerMask GroundLayer;
+        
     [SerializeField] private Rigidbody _Rigidbody;
     [SerializeField] private bool IsGrounded;
+    #endregion
 
     void Start()
     {
@@ -32,6 +37,11 @@ public class PlayerMovement : MonoBehaviour
         if (IsGrounded && Input.GetButtonDown("Jump"))
         {
             _Rigidbody.AddForce(new Vector3(0, JumpForce, 0), ForceMode.Impulse);
+        }
+
+        if(Life <= 0)
+        {
+            SceneManager.LoadScene(1);
         }
     }
 

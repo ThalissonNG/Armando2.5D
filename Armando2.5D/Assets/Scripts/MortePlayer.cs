@@ -5,11 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class MortePlayer : MonoBehaviour
 {
+    [SerializeField] private PlayerControl _PlayerControl;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(1);
+            _PlayerControl.Life = 0;
         }
     }
 }
