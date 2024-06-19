@@ -1,0 +1,1900 @@
+fileFormatVersion: 2
+guid: 45a54e83d6a9ccd45a23d7cb74ab9be3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_0
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 9648
+        width: 314
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964ec375ebb7e054bb4f87608db9d724
+      internalID: 1012510620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_1
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 9648
+        width: 314
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279da42091fafa940a7e1c3b358fef46
+      internalID: -1503844232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_2
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 9648
+        width: 314
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3916528997adff549b3b6e97483a934d
+      internalID: 833439047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_3
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 9648
+        width: 314
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05750b4fe84f91445ad7bce2d59480bb
+      internalID: 1515622554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_4
+      rect:
+        serializedVersion: 2
+        x: 4163
+        y: 9648
+        width: 314
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e593c3a3c8b7904ba7cb0db4488de9d
+      internalID: -2119658480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_5
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 9008
+        width: 319
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fca8b64455d244797ccdd44b986713
+      internalID: 836706362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_6
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 9008
+        width: 319
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13841f878dc42b1409e29c8f457925ff
+      internalID: 217077993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_7
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 9008
+        width: 319
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9276e89f74903a44eb7772158610c362
+      internalID: 2110066540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_8
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 9008
+        width: 319
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861833f37831fd14f843163f5a021b13
+      internalID: 2088193977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_9
+      rect:
+        serializedVersion: 2
+        x: 4163
+        y: 9008
+        width: 319
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df23c7e992122b4698e919322c68466
+      internalID: 717075982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 8368
+        width: 319
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2404d22428b1c954282514f1858ce491
+      internalID: -629987734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_11
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 8368
+        width: 319
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b212a0b1d24caf440b80f6c7e8a492fd
+      internalID: 290601900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_12
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 8368
+        width: 319
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0caff0d537aa184bb05a644e27fed84
+      internalID: 994252571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_13
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 8368
+        width: 319
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b80317fdcdac5418554d1cd28651e7
+      internalID: 970677601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_14
+      rect:
+        serializedVersion: 2
+        x: 4159
+        y: 8368
+        width: 323
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72903206dc5e3dc48b22534c40500779
+      internalID: -1506697526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_15
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 7728
+        width: 329
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53c16eb7279f524691afaa3e2f1af88
+      internalID: -2012781314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_16
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 7728
+        width: 329
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925f88e6a96be4649af96b049f27c0f2
+      internalID: 685108763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_17
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 7728
+        width: 329
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a43b13787587f4388e6adfed23d292
+      internalID: -1128363098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_18
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 7728
+        width: 329
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722f016ac436d8f438f3060c9843c94d
+      internalID: 376397729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_19
+      rect:
+        serializedVersion: 2
+        x: 4158
+        y: 7728
+        width: 329
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1670bb2e56435014ea0ce8dd834291b2
+      internalID: 1892038710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_20
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 7088
+        width: 329
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c25e82c15a1254fa953ef3f4350506
+      internalID: -1654918345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_21
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 7088
+        width: 329
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e157f30983984054e965ccabb3f06d09
+      internalID: 2013614051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_22
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 7088
+        width: 329
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea66f24b773b50408f8b29dbdee09d8
+      internalID: 910038618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_23
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 7088
+        width: 329
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cceef1efd66cf498746f12bb489d37
+      internalID: 1977466219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_24
+      rect:
+        serializedVersion: 2
+        x: 4158
+        y: 7088
+        width: 334
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b973b4dc0c2e6bf46beb930827b46bf6
+      internalID: 827912467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_25
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 6448
+        width: 334
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b16b761974f59241b6793533a5af4f0
+      internalID: 1088369995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_26
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 6448
+        width: 334
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee917ebb1c6e1b04d95fc5a34636f967
+      internalID: -47978982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_27
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 6448
+        width: 334
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4cac34ba1912d488f340ef1a308c25
+      internalID: 1907595776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_28
+      rect:
+        serializedVersion: 2
+        x: 3193
+        y: 6448
+        width: 339
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d4c443664a3734f87c6b98dcdaffac
+      internalID: -206901975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_29
+      rect:
+        serializedVersion: 2
+        x: 4153
+        y: 6448
+        width: 344
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3109af552849d41b94fe2ad00f77f0
+      internalID: -1314573178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_30
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 5808
+        width: 344
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8e13a3a9f318f4ebcc78867236c519
+      internalID: 1415254550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_31
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 5808
+        width: 344
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d52acd2f349404687d4cf0f1672ef9
+      internalID: 51973101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_32
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 5808
+        width: 344
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6332ee40073864abc0774c6395350a
+      internalID: 126781088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_33
+      rect:
+        serializedVersion: 2
+        x: 3193
+        y: 5808
+        width: 344
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a682fed7b14974bb7901bd3371d3e2
+      internalID: -1317258539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_34
+      rect:
+        serializedVersion: 2
+        x: 4153
+        y: 5808
+        width: 349
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5401055ecbd10c74bb58abb3c466024a
+      internalID: 666435446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_35
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 5168
+        width: 349
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9457fb82261f0674e8c0fceb9f685d20
+      internalID: -1737629864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_36
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 5168
+        width: 349
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4187c1388673e634d8378a22e6b99cff
+      internalID: 92512979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_37
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 5168
+        width: 349
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e5ce740d8d3934f9ed4a50349756b4
+      internalID: -1438799159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_38
+      rect:
+        serializedVersion: 2
+        x: 3193
+        y: 5168
+        width: 354
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654675e8ce4130a4aa427a358314a8e1
+      internalID: -1989706728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_39
+      rect:
+        serializedVersion: 2
+        x: 4153
+        y: 5168
+        width: 354
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9635f3999d2360b469adf3c44edb5e1c
+      internalID: -1485630618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_40
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 4528
+        width: 354
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927da7c6175364544a4c3128a300351c
+      internalID: 832485962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_41
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 4528
+        width: 354
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191383bf6b3cf4f4883fb196c2d6330a
+      internalID: -1021052265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_42
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 4528
+        width: 354
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63165e3da85243e458871f3342f6868d
+      internalID: 1571112713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_43
+      rect:
+        serializedVersion: 2
+        x: 3193
+        y: 4528
+        width: 349
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1656c81fc17eb4f85f0c4c58491b7d
+      internalID: -421168195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_44
+      rect:
+        serializedVersion: 2
+        x: 4153
+        y: 4528
+        width: 349
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fc08ae8f0e70a478ad90412d8a02be
+      internalID: -1078568377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_45
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 3888
+        width: 349
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5503fdd138d28e348a80cec3006d457e
+      internalID: -649370470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_46
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 3888
+        width: 349
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799deb2984783d64b8ef78d8cfbfad45
+      internalID: -483434912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_47
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 3888
+        width: 349
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a3bb4b049be524d9b1906af480d30b
+      internalID: 1465038549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_48
+      rect:
+        serializedVersion: 2
+        x: 3193
+        y: 3888
+        width: 349
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6e179f366d8d24aba762b840434576
+      internalID: -1759983531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_49
+      rect:
+        serializedVersion: 2
+        x: 4153
+        y: 3888
+        width: 349
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6989c48ee891344b091b217cb5054d
+      internalID: -360221209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_50
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 3248
+        width: 349
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ae5ed6e442d5f47abce2dea292db18
+      internalID: -1013958990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_51
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 3248
+        width: 344
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01cb7edfa4c70742ad62e40759b405e
+      internalID: -129836757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_52
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 3248
+        width: 339
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60433bb2a27d0b54fb47513a756d0251
+      internalID: 1679308920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_53
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 3248
+        width: 339
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f153e5ef03949fb41955ecb28342ad0b
+      internalID: 101850854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_54
+      rect:
+        serializedVersion: 2
+        x: 4158
+        y: 3248
+        width: 339
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69c8fe76e744764ab0b28307a6898d3
+      internalID: 792594274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_55
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 2608
+        width: 339
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df451e4371c1c524e95ea75a596d8aff
+      internalID: -2120614691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_56
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 2608
+        width: 339
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec48a9b87ad88248895e0df42388b2e
+      internalID: 463099726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_57
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 2608
+        width: 339
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1389f2de4475494ab65cf583a019915
+      internalID: 1947923619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_58
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 2608
+        width: 339
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5303dffbace314f9dabeb7f48f34bb
+      internalID: -1649250404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_59
+      rect:
+        serializedVersion: 2
+        x: 4158
+        y: 2608
+        width: 339
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289a36e9eaa63d54d9099af449789763
+      internalID: -1220776975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_60
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1968
+        width: 339
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15697f1b2f0340448c9589840c4d885
+      internalID: 1948338217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_61
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1968
+        width: 334
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bf71076d58dd54abeafa18bd00048b
+      internalID: -567557658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_62
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 1968
+        width: 334
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc49c6e5b891f3449cd7f1593d78489
+      internalID: -1883161556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_63
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 1968
+        width: 334
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f15df6ef4ec9f44bc4b029a4307326
+      internalID: -1463458544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_64
+      rect:
+        serializedVersion: 2
+        x: 4158
+        y: 1968
+        width: 334
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d31e8831746cca439a975c412cdb980
+      internalID: 1641521039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_65
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1328
+        width: 329
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7222fbf3145781b49a3d52936aa5452e
+      internalID: -827056455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_66
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 1328
+        width: 329
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a79491c56686743a7b08cd2648eaf6
+      internalID: -1920782287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_67
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 1328
+        width: 324
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abce9a373bdbb224dae8eb17b37407fe
+      internalID: 1727921755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_68
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 1328
+        width: 324
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e74f9fecd5773488e8e3b731bb3ef8
+      internalID: 352041292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_69
+      rect:
+        serializedVersion: 2
+        x: 4163
+        y: 1328
+        width: 324
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b04d2c810b68941b46cf293c66cf58
+      internalID: -459406566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_70
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 688
+        width: 324
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f6b36f647156846aa1e9a24162e51d
+      internalID: -465676990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_71
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 688
+        width: 324
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae11b5c13c67d84bab6763a1ed6b1fa
+      internalID: -2142486685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_72
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 688
+        width: 324
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420e4c614bec7a147b76faab017b7f38
+      internalID: 1578425339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_73
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 688
+        width: 324
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec5489563c58ed418fda2ff4decd6ec
+      internalID: -1089240653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_74
+      rect:
+        serializedVersion: 2
+        x: 4163
+        y: 688
+        width: 319
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2b63841e028a54fbb771d8c55fe16c
+      internalID: 109211172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_75
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 48
+        width: 319
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dca6661c6495f949a889436424c8f50
+      internalID: 484920916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_76
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 48
+        width: 319
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e3f42f63acb38428f71d5ca1277f62
+      internalID: 1801047430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_77
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 48
+        width: 314
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa95601fb413498488d5803d021dbaed
+      internalID: 1330280601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_78
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 48
+        width: 314
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193ece70ad3654540a748faf28eb3253
+      internalID: -1049338563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TesteParThalissonTatu_79
+      rect:
+        serializedVersion: 2
+        x: 4163
+        y: 48
+        width: 314
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2401c0b2b4411542ad3808c6af598ae
+      internalID: 1475832098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 895fd03115fe59c4f8facef08f9e0940
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TesteParThalissonTatu_0: 1012510620
+      TesteParThalissonTatu_1: -1503844232
+      TesteParThalissonTatu_10: -629987734
+      TesteParThalissonTatu_11: 290601900
+      TesteParThalissonTatu_12: 994252571
+      TesteParThalissonTatu_13: 970677601
+      TesteParThalissonTatu_14: -1506697526
+      TesteParThalissonTatu_15: -2012781314
+      TesteParThalissonTatu_16: 685108763
+      TesteParThalissonTatu_17: -1128363098
+      TesteParThalissonTatu_18: 376397729
+      TesteParThalissonTatu_19: 1892038710
+      TesteParThalissonTatu_2: 833439047
+      TesteParThalissonTatu_20: -1654918345
+      TesteParThalissonTatu_21: 2013614051
+      TesteParThalissonTatu_22: 910038618
+      TesteParThalissonTatu_23: 1977466219
+      TesteParThalissonTatu_24: 827912467
+      TesteParThalissonTatu_25: 1088369995
+      TesteParThalissonTatu_26: -47978982
+      TesteParThalissonTatu_27: 1907595776
+      TesteParThalissonTatu_28: -206901975
+      TesteParThalissonTatu_29: -1314573178
+      TesteParThalissonTatu_3: 1515622554
+      TesteParThalissonTatu_30: 1415254550
+      TesteParThalissonTatu_31: 51973101
+      TesteParThalissonTatu_32: 126781088
+      TesteParThalissonTatu_33: -1317258539
+      TesteParThalissonTatu_34: 666435446
+      TesteParThalissonTatu_35: -1737629864
+      TesteParThalissonTatu_36: 92512979
+      TesteParThalissonTatu_37: -1438799159
+      TesteParThalissonTatu_38: -1989706728
+      TesteParThalissonTatu_39: -1485630618
+      TesteParThalissonTatu_4: -2119658480
+      TesteParThalissonTatu_40: 832485962
+      TesteParThalissonTatu_41: -1021052265
+      TesteParThalissonTatu_42: 1571112713
+      TesteParThalissonTatu_43: -421168195
+      TesteParThalissonTatu_44: -1078568377
+      TesteParThalissonTatu_45: -649370470
+      TesteParThalissonTatu_46: -483434912
+      TesteParThalissonTatu_47: 1465038549
+      TesteParThalissonTatu_48: -1759983531
+      TesteParThalissonTatu_49: -360221209
+      TesteParThalissonTatu_5: 836706362
+      TesteParThalissonTatu_50: -1013958990
+      TesteParThalissonTatu_51: -129836757
+      TesteParThalissonTatu_52: 1679308920
+      TesteParThalissonTatu_53: 101850854
+      TesteParThalissonTatu_54: 792594274
+      TesteParThalissonTatu_55: -2120614691
+      TesteParThalissonTatu_56: 463099726
+      TesteParThalissonTatu_57: 1947923619
+      TesteParThalissonTatu_58: -1649250404
+      TesteParThalissonTatu_59: -1220776975
+      TesteParThalissonTatu_6: 217077993
+      TesteParThalissonTatu_60: 1948338217
+      TesteParThalissonTatu_61: -567557658
+      TesteParThalissonTatu_62: -1883161556
+      TesteParThalissonTatu_63: -1463458544
+      TesteParThalissonTatu_64: 1641521039
+      TesteParThalissonTatu_65: -827056455
+      TesteParThalissonTatu_66: -1920782287
+      TesteParThalissonTatu_67: 1727921755
+      TesteParThalissonTatu_68: 352041292
+      TesteParThalissonTatu_69: -459406566
+      TesteParThalissonTatu_7: 2110066540
+      TesteParThalissonTatu_70: -465676990
+      TesteParThalissonTatu_71: -2142486685
+      TesteParThalissonTatu_72: 1578425339
+      TesteParThalissonTatu_73: -1089240653
+      TesteParThalissonTatu_74: 109211172
+      TesteParThalissonTatu_75: 484920916
+      TesteParThalissonTatu_76: 1801047430
+      TesteParThalissonTatu_77: 1330280601
+      TesteParThalissonTatu_78: -1049338563
+      TesteParThalissonTatu_79: 1475832098
+      TesteParThalissonTatu_8: 2088193977
+      TesteParThalissonTatu_9: 717075982
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

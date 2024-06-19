@@ -17,13 +17,17 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private Transform GroundCheck;
     [SerializeField] private float GroundCheckRadius = 0.2f;
     [SerializeField] private LayerMask GroundLayer;
-        
-    [SerializeField] private Rigidbody _Rigidbody;
     [SerializeField] private bool IsGrounded;
+
+    [SerializeField] private Rigidbody _Rigidbody;
+    [SerializeField] private Animator _Animator;
+    [SerializeField] private SpriteRenderer _SpriteRender;
     #endregion
 
     void Start()
     {
+        _SpriteRender = GetComponent<SpriteRenderer>();
+        _Animator = GetComponent<Animator>();
         _Rigidbody = GetComponent<Rigidbody>();
     }
 
@@ -43,6 +47,24 @@ public class PlayerControl : MonoBehaviour
         {
             SceneManager.LoadScene(1);
         }
+        //animação
+        if (Input.GetAxis("Horizontal") != 0)
+        {
+            _Animator.SetBool("IsRun", true);
+            if (Input.GetAxis("Horizontal") < 0)
+            {
+                _SpriteRender.flipX = true;
+            }
+            else
+            {
+                _SpriteRender.flipX = false;
+            }
+        }
+        else
+        {
+            _Animator.SetBool("IsRun", false);
+        }
+
     }
 
     void OnDrawGizmosSelected()
