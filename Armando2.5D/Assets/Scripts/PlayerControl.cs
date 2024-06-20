@@ -5,15 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class PlayerControl : MonoBehaviour
 {
-    #region Status
     [Header("Status")]
     [SerializeField] private float MoveSpeed = 5f;
     [SerializeField] private float JumpForce = 5f;
     [SerializeField] public int Life = 10;
-    [Space(20)]
-    #endregion
 
-    #region Variables Worlds
+    [Header("World Variables")]
     [SerializeField] private Transform GroundCheck;
     [SerializeField] private float GroundCheckRadius = 0.2f;
     [SerializeField] private LayerMask GroundLayer;
@@ -22,7 +19,9 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private Rigidbody _Rigidbody;
     [SerializeField] private Animator _Animator;
     [SerializeField] private SpriteRenderer _SpriteRender;
-    #endregion
+    [SerializeField] private AudioSource footstepSound;
+
+    private bool isMoving = false;
 
     void Start()
     {
@@ -43,15 +42,21 @@ public class PlayerControl : MonoBehaviour
             _Rigidbody.AddForce(new Vector3(0, JumpForce, 0), ForceMode.Impulse);
         }
 
-        if(Life <= 0)
+        if (Life <= 0)
         {
             SceneManager.LoadScene(1);
         }
-        //animação
-        if (Input.GetAxis("Horizontal") != 0)
+
+        // AnimaÃ§Ã£o e Sons
+        if (move != 0)
         {
             _Animator.SetBool("IsRun", true);
-            if (Input.GetAxis("Horizontal") < 0)
+            if (!footstepSound.isPlaying)
+            {
+                footstepSound.Play();
+            }
+
+            if (move < 0)
             {
                 _SpriteRender.flipX = true;
             }
@@ -63,8 +68,8 @@ public class PlayerControl : MonoBehaviour
         else
         {
             _Animator.SetBool("IsRun", false);
+            footstepSound.Stop();
         }
-
     }
 
     void OnDrawGizmosSelected()
@@ -76,4 +81,3 @@ public class PlayerControl : MonoBehaviour
         Gizmos.DrawSphere(GroundCheck.position, GroundCheckRadius);
     }
 }
-
