@@ -16,6 +16,7 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private LayerMask GroundLayer;
     [SerializeField] private bool IsGrounded;
 
+    [Header("Componets")]
     [SerializeField] private Rigidbody _Rigidbody;
     [SerializeField] private Animator _Animator;
     [SerializeField] private SpriteRenderer _SpriteRender;
@@ -40,6 +41,8 @@ public class PlayerControl : MonoBehaviour
         if (IsGrounded && Input.GetButtonDown("Jump"))
         {
             _Rigidbody.AddForce(new Vector3(0, JumpForce, 0), ForceMode.Impulse);
+
+            _Animator.SetBool("IsJump", true);
         }
 
         if (Life <= 0)

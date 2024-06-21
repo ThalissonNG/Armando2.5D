@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.37229782, g: 0.68280923, b: 0.87282676, a: 1}
+  m_IndirectSpecularColor: {r: 0.3723345, g: 0.68282765, b: 0.87283313, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1622,16 +1622,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 556376600}
     - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: CaixaDeDialogo
+      value: 
+      objectReference: {fileID: 1267430305}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: FalaPersonagem
-      value: "Parab\xE9ns, corre pro abra\xE7ado que tu ganhou Cirilo "
+      value: "As refei\xE7\xF5es no quilombo s\xE3o momentos especiais onde todos
+        se re\xFAnem para compartilhar hist\xF3rias e comida. Zumbi adora ouvir os
+        mais velhos contando sobre nossas origens e as lutas que enfrentamos. Cada
+        refei\xE7\xE3o fortalece os la\xE7os da nossa comunidade e preserva nossa
+        hist\xF3ria."
       objectReference: {fileID: 0}
     - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 12.75
       objectReference: {fileID: 0}
     - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -33.074
+      value: -38
       objectReference: {fileID: 0}
     - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1703,17 +1711,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556376598}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1767297614}
+  m_Father: {fileID: 1267430308}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 273}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 684.8842, y: 201.7727}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &556376600
 MonoBehaviour:
@@ -1735,7 +1743,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "\"Aqui na Serra da Barriga, vivemos em comunidade, trabalhando juntos
+    para construir uma vida longe da opress\xE3o. As planta\xE7\xF5es de mandioca
+    e milho s\xE3o fruto do nosso esfor\xE7o coletivo. Desde cedo, Zumbi mostra um
+    esp\xEDrito forte e curioso, com potencial para se tornar um grande l\xEDder
+    para o nosso povo.\""
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1744,8 +1756,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1762,14 +1774,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1812,6 +1824,78 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556376598}
   m_CullTransparentMesh: 1
+--- !u!1001 &562580375
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1578573011}
+    m_Modifications:
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: TextMeshPro
+      value: 
+      objectReference: {fileID: 556376600}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: CaixaDeDialogo
+      value: 
+      objectReference: {fileID: 1267430305}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: FalaPersonagem
+      value: "As hist\xF3rias dos nossos ancestrais s\xE3o importantes para entender
+        nossa identidade e nossa luta pela liberdade. Zumbi, mesmo jovem, escuta
+        com aten\xE7\xE3o e aprende sobre os her\xF3is que vieram antes dele. Essas
+        hist\xF3rias s\xE3o a base da nossa cultura e resist\xEAncia."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -38
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100602334263299277, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_Name
+      value: NPC
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dd7816784aede5c42b383a68369252b1, type: 3}
 --- !u!1001 &573503151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1825,8 +1909,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 556376600}
     - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: CaixaDeDialogo
+      value: 
+      objectReference: {fileID: 1267430305}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: FalaPersonagem
-      value: Cuidado Neguin
+      value: "Nos campos do Quilombo dos Palmares, todos plantamos e colhemos juntos
+        para garantir nosso sustento. Zumbi j\xE1 demonstra muita determina\xE7\xE3o
+        e for\xE7a, mesmo sendo t\xE3o jovem. A uni\xE3o de nossa comunidade \xE9
+        a chave para nossa sobreviv\xEAncia e resist\xEAncia contra a opress\xE3o."
       objectReference: {fileID: 0}
     - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: TextMeshPro.Array.size
@@ -2546,6 +2637,78 @@ LightingSettings:
   m_PVRTiledBaking: 0
   m_NumRaysToShootPerTexel: -1
   m_RespectSceneVisibilityWhenBakingGI: 0
+--- !u!1001 &746115151
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1578573011}
+    m_Modifications:
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: TextMeshPro
+      value: 
+      objectReference: {fileID: 556376600}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: CaixaDeDialogo
+      value: 
+      objectReference: {fileID: 1267430305}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: FalaPersonagem
+      value: "Na forja, trabalhamos duro para produzir ferramentas e armas essenciais
+        para nossa sobreviv\xEAncia. Zumbi observa e aprende sobre o processo de
+        transforma\xE7\xE3o do metal. Esse conhecimento \xE9 fundamental para a defesa
+        do quilombo e para o futuro de nossa comunidade."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 97.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100602334263299277, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_Name
+      value: NPC (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dd7816784aede5c42b383a68369252b1, type: 3}
 --- !u!1001 &761542377
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2703,7 +2866,7 @@ Transform:
   m_GameObject: {fileID: 775522151}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 322, y: -38.5, z: 0}
+  m_LocalPosition: {x: 334, y: -38.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2782,6 +2945,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c7b103161b7c2b04fbb99e7df03fcdb1, type: 3}
   m_PrefabInstance: {fileID: 790684091}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &791983449 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+  m_PrefabInstance: {fileID: 562580375}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &801193543 stripped
 Transform:
@@ -2866,11 +3034,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 38974e9dafc20644780560fb53360186, type: 3}
   m_PrefabInstance: {fileID: 825602779}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &844907163 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9150254037045908744, guid: 5bd4b5fd170bd82488580a2d1abd893b, type: 3}
-  m_PrefabInstance: {fileID: 1743231897}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &849914377
 PrefabInstance:
@@ -3142,8 +3305,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 556376600}
     - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: CaixaDeDialogo
+      value: 
+      objectReference: {fileID: 1267430305}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: FalaPersonagem
-      value: "Olha o burraco Neg\xE3o"
+      value: "Os tempos s\xE3o dif\xEDceis, mas a resist\xEAncia \xE9 uma parte vital
+        da vida aqui no Quilombo dos Palmares. Desde pequeno, Zumbi tem aprendido
+        as artes da luta e da defesa. Ele tem um talento natural para a batalha,
+        algo que \xE9 percebido por todos. A liberdade aqui foi conquistada com muito
+        esfor\xE7o e \xE9 nossa responsabilidade proteg\xEA-la."
       objectReference: {fileID: 0}
     - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3814,6 +3985,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 38974e9dafc20644780560fb53360186, type: 3}
   m_PrefabInstance: {fileID: 981676648}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &990719965 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+  m_PrefabInstance: {fileID: 1331044406}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1013959274
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4275,6 +4451,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 34fc99b37ba62334f9a870ce2f61f204, type: 3}
   m_PrefabInstance: {fileID: 1138867954}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1160048412 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+  m_PrefabInstance: {fileID: 746115151}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1164588618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4495,108 +4676,88 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7442798950369552566, guid: 5bd4b5fd170bd82488580a2d1abd893b, type: 3}
   m_PrefabInstance: {fileID: 1743231897}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 844907163}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1567cb0f739d9004784dbd3c5586174d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &1226195260
-AudioSource:
+--- !u!1 &1267430305
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 844907163}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1267430308}
+  - component: {fileID: 1267430307}
+  - component: {fileID: 1267430306}
+  m_Layer: 5
+  m_Name: caixa de Dialogo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1267430306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267430305}
   m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
-  m_Volume: 0.5
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1267430307
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267430305}
+  m_CullTransparentMesh: 1
+--- !u!224 &1267430308
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267430305}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 556376599}
+  m_Father: {fileID: 1767297614}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -285}
+  m_SizeDelta: {x: 865, y: 290}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1270696660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4811,6 +4972,78 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f33a9bc72072bb34093d913fd0d675cb, type: 3}
   m_PrefabInstance: {fileID: 1324251936}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1331044406
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1578573011}
+    m_Modifications:
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: TextMeshPro
+      value: 
+      objectReference: {fileID: 556376600}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: CaixaDeDialogo
+      value: 
+      objectReference: {fileID: 1267430305}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: FalaPersonagem
+      value: "Cada pe\xE7a tecida aqui conta uma parte da nossa hist\xF3ria e cultura.
+        Zumbi se interessa pelos padr\xF5es e t\xE9cnicas, entendendo a import\xE2ncia
+        de preservar nossa identidade. O trabalho artesanal fortalece nossa comunidade
+        e mant\xE9m viva a tradi\xE7\xE3o de nossos ancestrais."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 119.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100602334263299277, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: m_Name
+      value: NPC (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dd7816784aede5c42b383a68369252b1, type: 3}
 --- !u!4 &1346663537 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: aef07e9251f14a84db064a88805a6ec3, type: 3}
@@ -5527,6 +5760,9 @@ Transform:
   - {fileID: 1207662502}
   - {fileID: 2081273143}
   - {fileID: 657060314}
+  - {fileID: 791983449}
+  - {fileID: 1160048412}
+  - {fileID: 990719965}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1617529878 stripped
@@ -5621,8 +5857,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 556376600}
     - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: CaixaDeDialogo
+      value: 
+      objectReference: {fileID: 1267430305}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: FalaPersonagem
-      value: "Olha a \xE1gua"
+      value: "A medicina das plantas \xE9 essencial para a sa\xFAde da nossa comunidade.
+        Zumbi tem uma mente curiosa e sempre quer aprender sobre as ervas e seus
+        poderes curativos. Com esse conhecimento, ele poder\xE1 ajudar muito o nosso
+        povo, tanto na sa\xFAde quanto na luta pela resist\xEAncia."
       objectReference: {fileID: 0}
     - target: {fileID: 3477760027455931590, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5857,38 +6100,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7442798950369552566, guid: 5bd4b5fd170bd82488580a2d1abd893b, type: 3}
-      propertyPath: JumpForce
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7442798950369552566, guid: 5bd4b5fd170bd82488580a2d1abd893b, type: 3}
-      propertyPath: MoveSpeed
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 7442798950369552566, guid: 5bd4b5fd170bd82488580a2d1abd893b, type: 3}
-      propertyPath: footstepSound
-      value: 
-      objectReference: {fileID: 1226195260}
-    - target: {fileID: 8286386479376838762, guid: 5bd4b5fd170bd82488580a2d1abd893b, type: 3}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8286386479376838762, guid: 5bd4b5fd170bd82488580a2d1abd893b, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 9150254037045908744, guid: 5bd4b5fd170bd82488580a2d1abd893b, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: -8286646239827412093, guid: 5bd4b5fd170bd82488580a2d1abd893b, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 9150254037045908744, guid: 5bd4b5fd170bd82488580a2d1abd893b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1226195260}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bd4b5fd170bd82488580a2d1abd893b, type: 3}
 --- !u!1 &1767297610
 GameObject:
@@ -5984,7 +6203,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 556376599}
+  - {fileID: 1267430308}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -6671,8 +6890,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 556376600}
     - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: CaixaDeDialogo
+      value: 
+      objectReference: {fileID: 1267430305}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: FalaPersonagem
-      value: Bem Vindo
+      value: "Aqui na Serra da Barriga, vivemos em comunidade, trabalhando juntos
+        para construir uma vida longe da opress\xE3o. As planta\xE7\xF5es de mandioca
+        e milho s\xE3o fruto do nosso esfor\xE7o coletivo. Desde cedo, Zumbi mostra
+        um esp\xEDrito forte e curioso, com potencial para se tornar um grande l\xEDder
+        para o nosso povo."
       objectReference: {fileID: 0}
     - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: TextMeshPro.Array.data[0]

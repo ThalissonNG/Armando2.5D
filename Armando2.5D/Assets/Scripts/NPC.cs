@@ -9,6 +9,7 @@ public class NPC : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI TextMeshPro;
     [SerializeField] private string FalaPersonagem;
+    [SerializeField] private GameObject CaixaDeDialogo;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -35,10 +36,12 @@ public class NPC : MonoBehaviour
     }
     private void DisplayText()
     {
+        CaixaDeDialogo.SetActive(true);
         TextMeshPro.text = FalaPersonagem;
     }
     private void ClearText()
     {
+        CaixaDeDialogo.SetActive(false);
         TextMeshPro.text = string.Empty;
     }
 }
