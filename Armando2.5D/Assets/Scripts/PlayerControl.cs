@@ -16,19 +16,35 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private LayerMask GroundLayer;
     [SerializeField] private bool IsGrounded;
 
-    [Header("Componets")]
+    [Header("Components")]
     [SerializeField] private Rigidbody _Rigidbody;
     [SerializeField] private Animator _Animator;
     [SerializeField] private SpriteRenderer _SpriteRender;
     [SerializeField] private AudioSource footstepSound;
 
-    private bool isMoving = false;
+    [Header("Sound Effects")]
+    [SerializeField] private AudioClip jumpSound;
+    [SerializeField] private AudioClip landSound;
+    [SerializeField] private AudioSource audioSource;
+
+    // Ajuste de volume dos sons
+    [Header("Volume Settings")]
+    [SerializeField] private float footstepVolume = 1.0f;
+    [SerializeField] private float jumpVolume = 1.0f;
+    [SerializeField] private float landVolume = 1.0f;
+
+    private bool wasGrounded;
 
     void Start()
     {
         _SpriteRender = GetComponent<SpriteRenderer>();
         _Animator = GetComponent<Animator>();
         _Rigidbody = GetComponent<Rigidbody>();
+        wasGrounded = true;
+
+        // Define os volumes iniciais
+        footstepSound.volume = footstepVolume;
+        audioSource.volume = jumpVolume;  // Padrão para som de salto
     }
 
     void Update()
@@ -38,11 +54,16 @@ public class PlayerControl : MonoBehaviour
 
         IsGrounded = Physics.CheckSphere(GroundCheck.position, GroundCheckRadius, GroundLayer);
 
+        if (IsGrounded && !wasGrounded)
+        {
+            PlayLandSound();
+        }
+
         if (IsGrounded && Input.GetButtonDown("Jump"))
         {
             _Rigidbody.AddForce(new Vector3(0, JumpForce, 0), ForceMode.Impulse);
-
             _Animator.SetBool("IsJump", true);
+            PlayJumpSound();
         }
 
         if (Life <= 0)
@@ -54,8 +75,9 @@ public class PlayerControl : MonoBehaviour
         if (move != 0)
         {
             _Animator.SetBool("IsRun", true);
-            if (!footstepSound.isPlaying)
+            if (IsGrounded && !footstepSound.isPlaying)
             {
+                footstepSound.volume = footstepVolume;
                 footstepSound.Play();
             }
 
@@ -72,6 +94,28 @@ public class PlayerControl : MonoBehaviour
         {
             _Animator.SetBool("IsRun", false);
             footstepSound.Stop();
+        }
+
+        wasGrounded = IsGrounded;
+    }
+
+    void PlayJumpSound()
+    {
+        if (audioSource != null && jumpSound != null)
+        {
+            audioSource.clip = jumpSound;
+            audioSource.volume = jumpVolume;
+            audioSource.Play();
+        }
+    }
+
+    void PlayLandSound()
+    {
+        if (audioSource != null && landSound != null)
+        {
+            audioSource.clip = landSound;
+            audioSource.volume = landVolume;
+            audioSource.Play();
         }
     }
 
