@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.37229782, g: 0.6828093, b: 0.87282676, a: 1}
+  m_IndirectSpecularColor: {r: 0.37229782, g: 0.68280923, b: 0.87282676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1662,7 +1662,7 @@ Transform:
   m_GameObject: {fileID: 537408374}
   serializedVersion: 2
   m_LocalRotation: {x: 0.22888336, y: -0, z: -0, w: 0.9734539}
-  m_LocalPosition: {x: -4, y: 10.62, z: 1.5}
+  m_LocalPosition: {x: 5.31, y: 10.62, z: 1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1749,6 +1749,14 @@ PrefabInstance:
       propertyPath: TextMeshPro
       value: 
       objectReference: {fileID: 556376600}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1743231898}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: dialogSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9f4eaea49b1b23641a4dbd94c232254c, type: 3}
     - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: CaixaDeDialogo
       value: 
@@ -1965,6 +1973,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 556376600}
     - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1743231898}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: dialogSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9f4eaea49b1b23641a4dbd94c232254c, type: 3}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: CaixaDeDialogo
       value: 
       objectReference: {fileID: 1267430305}
@@ -2036,6 +2052,14 @@ PrefabInstance:
       propertyPath: TextMeshPro
       value: 
       objectReference: {fileID: 556376600}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1743231898}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: dialogSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9f4eaea49b1b23641a4dbd94c232254c, type: 3}
     - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: CaixaDeDialogo
       value: 
@@ -2778,6 +2802,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 556376600}
     - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1743231898}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: dialogSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9f4eaea49b1b23641a4dbd94c232254c, type: 3}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: CaixaDeDialogo
       value: 
       objectReference: {fileID: 1267430305}
@@ -3433,6 +3465,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 556376600}
     - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1743231898}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: dialogSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9f4eaea49b1b23641a4dbd94c232254c, type: 3}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: CaixaDeDialogo
       value: 
       objectReference: {fileID: 1267430305}
@@ -3729,7 +3769,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0.22888336, y: -0, z: -0, w: 0.9734539}
-  m_LocalPosition: {x: -4, y: 10.62, z: 1.5}
+  m_LocalPosition: {x: 5.31, y: 10.62, z: 1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3946,6 +3986,7 @@ GameObject:
   - component: {fileID: 971730579}
   - component: {fileID: 971730578}
   - component: {fileID: 971730577}
+  - component: {fileID: 971730581}
   m_Layer: 3
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -4039,6 +4080,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &971730581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971730576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23095e6a8cc9f1242a37177b182346b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionSound: {fileID: 8300000, guid: 3d6a8bdebea4d534a812ccbfa1960d3a, type: 3}
+  audioSource: {fileID: 1743231898}
 --- !u!1001 &981676648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5144,6 +5199,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 556376600}
     - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1743231898}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: dialogSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9f4eaea49b1b23641a4dbd94c232254c, type: 3}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: dialogVolume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: CaixaDeDialogo
       value: 
       objectReference: {fileID: 1267430305}
@@ -6050,6 +6117,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 556376600}
     - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1743231898}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: dialogSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9f4eaea49b1b23641a4dbd94c232254c, type: 3}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: CaixaDeDialogo
       value: 
       objectReference: {fileID: 1267430305}
@@ -6255,7 +6330,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2590055588035011705, guid: 5bd4b5fd170bd82488580a2d1abd893b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4
+      value: 5.31
       objectReference: {fileID: 0}
     - target: {fileID: 2590055588035011705, guid: 5bd4b5fd170bd82488580a2d1abd893b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6886,6 +6961,134 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7af46ffa20b54964aac0d7db5513a10a, type: 3}
   m_PrefabInstance: {fileID: 1912520063}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1959398329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1959398331}
+  - component: {fileID: 1959398330}
+  m_Layer: 0
+  m_Name: Ambiente
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1959398330
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959398329}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: aabd9cb4dbf18a148a9982f833d3fa6c, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 10
+  MaxDistance: 100
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1959398331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959398329}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 27.46, y: 8.62, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1963404519 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7af46ffa20b54964aac0d7db5513a10a, type: 3}
@@ -7376,6 +7579,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 556376600}
     - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1743231898}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
+      propertyPath: dialogSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9f4eaea49b1b23641a4dbd94c232254c, type: 3}
+    - target: {fileID: 446420414387350124, guid: dd7816784aede5c42b383a68369252b1, type: 3}
       propertyPath: CaixaDeDialogo
       value: 
       objectReference: {fileID: 1267430305}
@@ -7463,4 +7674,5 @@ SceneRoots:
   - {fileID: 733759893}
   - {fileID: 996886357}
   - {fileID: 410394544}
+  - {fileID: 1959398331}
   - {fileID: 1654647715}

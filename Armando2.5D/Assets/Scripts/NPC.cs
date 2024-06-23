@@ -11,6 +11,10 @@ public class NPC : MonoBehaviour
     [SerializeField] private string FalaPersonagem;
     [SerializeField] private GameObject CaixaDeDialogo;
 
+    [Header("Sound Effects")]
+    [SerializeField] private AudioClip dialogSound;
+    [SerializeField] private AudioSource audioSource;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -38,10 +42,20 @@ public class NPC : MonoBehaviour
     {
         CaixaDeDialogo.SetActive(true);
         TextMeshPro.text = FalaPersonagem;
+        PlayDialogSound();
     }
     private void ClearText()
     {
         CaixaDeDialogo.SetActive(false);
         TextMeshPro.text = string.Empty;
+    }
+
+    private void PlayDialogSound()
+    {
+        if (audioSource != null && dialogSound != null)
+        {
+            audioSource.clip = dialogSound;
+            audioSource.Play();
+        }
     }
 }
