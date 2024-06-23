@@ -1,28 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerControl : MonoBehaviour
 {
+    #region(Status)
     [Header("Status")]
     [SerializeField] private float MoveSpeed = 5f;
     [SerializeField] private float JumpForce = 5f;
     [SerializeField] public int Life = 10;
+    [SerializeField] private string TagPlayer;
+    [SerializeField] bool IsPlayer;
+    #endregion
 
+    #region(World Variables)
     [Header("World Variables")]
     [SerializeField] private Transform GroundCheck;
     [SerializeField] private float GroundCheckRadius = 0.2f;
     [SerializeField] private LayerMask GroundLayer;
     [SerializeField] private bool IsGrounded;
+    #endregion
 
+    #region(Components)
     [Header("Components")]
     [SerializeField] private Rigidbody _Rigidbody;
     [SerializeField] private Animator _Animator;
     [SerializeField] private SpriteRenderer _SpriteRender;
     [SerializeField] private AudioSource footstepSound;
     [SerializeField] private Transform _Transform;
+    #endregion
 
+    #region(Sound Effects)
     [Header("Sound Effects")]
     [SerializeField] private AudioClip jumpSound;
     [SerializeField] private AudioClip landSound;
@@ -33,11 +43,15 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private float footstepVolume = 1.0f;
     [SerializeField] private float jumpVolume = 1.0f;
     [SerializeField] private float landVolume = 1.0f;
+    #endregion
 
     private bool wasGrounded;
 
     void Start()
     {
+        IsPlayer = true;
+        TagPlayer = gameObject.tag;
+
         _SpriteRender = GetComponent<SpriteRenderer>();
         _Animator = GetComponent<Animator>();
         _Rigidbody = GetComponent<Rigidbody>();
@@ -102,8 +116,37 @@ public class PlayerControl : MonoBehaviour
         }
 
         wasGrounded = IsGrounded;
-    }
 
+        Debug.Log(IsPlayer);
+        UpdateTag();
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("barril"))
+        {
+            IsPlayer = false;
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("barril"))
+        {
+            IsPlayer = true;
+        }
+    }
+    private void UpdateTag()
+    {
+        if (IsPlayer == true)
+        {
+            gameObject.tag = "Player";
+            _SpriteRender.enabled = true;
+                }
+        else
+        {
+            gameObject.tag = "NoPlayer";
+            _SpriteRender.enabled = false;
+        }
+    }
     void PlayJumpSound()
     {
         if (audioSource != null && jumpSound != null)

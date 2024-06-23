@@ -29,7 +29,6 @@ public class AiEnemys : MonoBehaviour
     void Update()
     {
         FollowPlayer();
-        UpdateTimer();
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -42,34 +41,15 @@ public class AiEnemys : MonoBehaviour
             CurrentPoint = Point1;
         }
     }
-    private void UpdateTimer()
-    {
-        if (IsFollow)
-        {
-            CurrentTimer -= Time.deltaTime;
-            if (CurrentTimer <= 0)
-            {
-                _PlayerControl.Life = 0;
-            }
-        }
-        else
-        {
-            CurrentTimer = StartTimer;
-        }
-    }
     private void FollowPlayer()
     {
         if (IsFollow)
         {
-            _NavMeshAgent.SetDestination(Player.position);
-            _NavMeshAgent.stoppingDistance = 2;
-            _NavMeshAgent.speed = 10;
+            _PlayerControl.Life = 0;
         }
         else
         {
             _NavMeshAgent.SetDestination(CurrentPoint.position);
-            _NavMeshAgent.stoppingDistance = 0;
-            _NavMeshAgent.speed = 2;
         }
     }
 }
