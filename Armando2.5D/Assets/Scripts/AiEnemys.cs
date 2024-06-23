@@ -13,7 +13,7 @@ public class AiEnemys : MonoBehaviour
     [SerializeField] private Transform Point2;
 
     [SerializeField] public bool IsFollow;
-    private float StartTimer = 10;
+    private float StartTimer = 2;
     [SerializeField] private float CurrentTimer;
 
     [SerializeField] private PlayerControl _PlayerControl;
@@ -63,13 +63,13 @@ public class AiEnemys : MonoBehaviour
         {
             _NavMeshAgent.SetDestination(Player.position);
             _NavMeshAgent.stoppingDistance = 2;
-            _NavMeshAgent.acceleration = 10;
+            _NavMeshAgent.speed = 10;
         }
         else
         {
             _NavMeshAgent.SetDestination(CurrentPoint.position);
             _NavMeshAgent.stoppingDistance = 0;
-            _NavMeshAgent.acceleration = 8;
+            _NavMeshAgent.speed = 2;
         }
     }
 }

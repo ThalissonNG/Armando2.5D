@@ -21,6 +21,7 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private Animator _Animator;
     [SerializeField] private SpriteRenderer _SpriteRender;
     [SerializeField] private AudioSource footstepSound;
+    [SerializeField] private Transform _Transform;
 
     [Header("Sound Effects")]
     [SerializeField] private AudioClip jumpSound;
@@ -49,6 +50,10 @@ public class PlayerControl : MonoBehaviour
 
     void Update()
     {
+        Vector3 currentPosition = transform.position;
+        currentPosition.z = 0.5f;
+        transform.position = currentPosition;
+
         float move = Input.GetAxis("Horizontal");
         _Rigidbody.velocity = new Vector3(move * MoveSpeed, _Rigidbody.velocity.y, 0);
 
