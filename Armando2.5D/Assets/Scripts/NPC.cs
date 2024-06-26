@@ -10,6 +10,7 @@ public class NPC : MonoBehaviour
     [SerializeField] private TextMeshProUGUI TextMeshPro;
     [SerializeField] private string FalaPersonagem;
     [SerializeField] private GameObject CaixaDeDialogo;
+    [SerializeField] private GameObject PressB;
 
     [Header("Sound Effects")]
     [SerializeField] private AudioClip dialogSound;
@@ -20,6 +21,7 @@ public class NPC : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             ColliderPlayer = true;
+            PressB.SetActive(true);
         }
     }
     private void OnTriggerExit(Collider other)
@@ -28,12 +30,13 @@ public class NPC : MonoBehaviour
         {
             ColliderPlayer = false;
             ClearText();
+            PressB.SetActive(false);
         }
     }
 
     void Update()
     {
-        if (ColliderPlayer && Input.GetButtonDown("Fire1"))
+        if (ColliderPlayer && Input.GetButtonDown("Fire2"))
         {
             DisplayText();
         }
@@ -49,7 +52,6 @@ public class NPC : MonoBehaviour
         CaixaDeDialogo.SetActive(false);
         TextMeshPro.text = string.Empty;
     }
-
     private void PlayDialogSound()
     {
         if (audioSource != null && dialogSound != null)

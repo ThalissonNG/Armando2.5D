@@ -65,7 +65,7 @@ public class PlayerControl : MonoBehaviour
     void Update()
     {
         Vector3 currentPosition = transform.position;
-        currentPosition.z = 0.5f;
+        currentPosition.z = 10.5f;
         transform.position = currentPosition;
 
         float move = Input.GetAxis("Horizontal");
@@ -117,8 +117,7 @@ public class PlayerControl : MonoBehaviour
 
         wasGrounded = IsGrounded;
 
-        Debug.Log(IsPlayer);
-        UpdateTag();
+            UpdateTag();
     }
     private void OnTriggerEnter(Collider other)
     {

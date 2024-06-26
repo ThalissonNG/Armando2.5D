@@ -123,4 +123,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ColliderPlayer: 0
   TextMeshPro: {fileID: 0}
-  FalaPersonagem: 
+  FalaPersonagem: "Aqui na Serra da Barriga, vivemos em comunidade, trabalhando juntos
+    para construir uma vida longe da opress\xE3o. As planta\xE7\xF5es de mandioca
+    e milho s\xE3o fruto do nosso esfor\xE7o coletivo. Desde cedo, Zumbi mostra um
+    esp\xEDrito forte e curioso, com potencial para se tornar um grande l\xEDder
+    para o nosso povo."
+  CaixaDeDialogo: {fileID: 0}
+  PressB: {fileID: 0}
+  dialogSound: {fileID: 8300000, guid: 9f4eaea49b1b23641a4dbd94c232254c, type: 3}
+  audioSource: {fileID: 0}

@@ -2,14 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class NextFase : MonoBehaviour
 {
+    [SerializeField] private GameObject FadeImage;
+    [SerializeField] private GameObject Player;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(2);
+            Player.SetActive(false);
+            FadeImage.SetActive(true);
+            StartCoroutine(Timer());
         }
+    }
+
+    IEnumerator Timer()
+    {
+        yield return new WaitForSeconds(20);
+        SceneManager.LoadScene(2);
     }
 }
